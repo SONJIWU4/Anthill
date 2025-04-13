@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClInclude Include="Ant.h" />
     <ClInclude Include="Anthill.h" />
+    <ClInclude Include="Cemetery.h" />
     <ClInclude Include="Enemy.h" />
     <ClInclude Include="Game Settings.h" />
     <ClInclude Include="Game.h" />
