@@ -8,10 +8,18 @@ void Game::add_stats(Font& font) {
         statsLines.push_back(t);
         line++;
         };
+    // Подсчет ресурсов типа "body" (трупы)
+    int bodyResourcesCount = 0;
+    for (const auto& res : resources) {
+        if (res.is_visible() && res.get_type() == body) {
+            bodyResourcesCount++;
+        }
+    }
     makeText("Ants: " + to_K(anthill.get_ant_count()) + " (" + to_K(anthill.get_max_ants()) + ")", Color::White);
     makeText("Enemies: " + to_string(raid.get_size()), Color::Red);
     makeText("Aphids: " + to_string(aphids.size()), Color(75, 0, 130));
     makeText("Food: " + to_K(anthill.get_food_count()) + " (" + to_K(anthill.get_max_food()) + ")", Color(0, 255, 0));
+    makeText("Bodies: " + to_string(bodyResourcesCount), Color(134, 138, 142));
     makeText("Sticks: " + to_K(anthill.get_stick_count()) + " (FU: " + to_K(anthill.get_for_upd() - anthill.get_stick_count()) + ")", Color(139, 69, 19));
     makeText("---------------", Color(0, 0, 0));
     makeText("Babies: " + to_string(anthill.get_baby_count()), Color::White);
@@ -48,11 +56,17 @@ void Game::spawn_res()
     }
 }
 
-void Game::spawn_body(){
-    for (auto& ant : anthill.colony) {
-        if (ant.get_hp() <= 0 && ant.is_already_dead()) {
-            ant.dead(resources);
+void Game::spawn_body()
+{
+    vector<size_t> ants_dead;
+    for (size_t i = 0; i < anthill.colony.size(); i++) {
+        if (anthill.colony[i].get_hp() <= 0 && !anthill.colony[i].is_already_dead()) {
+            anthill.colony[i].dead(resources);
+            ants_dead.push_back(i);
         }
+    }
+    for (int i = ants_dead.size() - 1; i >= 0; i--) {
+        anthill.colony.erase(anthill.colony.begin() + ants_dead[i]);
     }
 }
 
