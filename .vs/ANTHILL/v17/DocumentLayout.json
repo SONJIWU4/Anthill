@@ -1,0 +1,477 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\Anthill\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D5875DE6-B354-4841-855F-8B6EBE211CB4}|ANTHILL.vcxproj|C:\\Users\\Admin\\Desktop\\Anthill\\MAIN.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D5875DE6-B354-4841-855F-8B6EBE211CB4}|ANTHILL.vcxproj|solutionrelative:MAIN.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5875DE6-B354-4841-855F-8B6EBE211CB4}|ANTHILL.vcxproj|C:\\Users\\Admin\\Desktop\\Anthill\\Raid.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D5875DE6-B354-4841-855F-8B6EBE211CB4}|ANTHILL.vcxproj|solutionrelative:Raid.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5875DE6-B354-4841-855F-8B6EBE211CB4}|ANTHILL.vcxproj|C:\\Users\\Admin\\Desktop\\Anthill\\Resource.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D5875DE6-B354-4841-855F-8B6EBE211CB4}|ANTHILL.vcxproj|solutionrelative:Resource.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5875DE6-B354-4841-855F-8B6EBE211CB4}|ANTHILL.vcxproj|C:\\Users\\Admin\\Desktop\\Anthill\\Resource.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D5875DE6-B354-4841-855F-8B6EBE211CB4}|ANTHILL.vcxproj|solutionrelative:Resource.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5875DE6-B354-4841-855F-8B6EBE211CB4}|ANTHILL.vcxproj|C:\\Users\\Admin\\Desktop\\Anthill\\Ant.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D5875DE6-B354-4841-855F-8B6EBE211CB4}|ANTHILL.vcxproj|solutionrelative:Ant.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5875DE6-B354-4841-855F-8B6EBE211CB4}|ANTHILL.vcxproj|C:\\Users\\Admin\\Desktop\\Anthill\\Ant.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D5875DE6-B354-4841-855F-8B6EBE211CB4}|ANTHILL.vcxproj|solutionrelative:Ant.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5875DE6-B354-4841-855F-8B6EBE211CB4}|ANTHILL.vcxproj|C:\\Users\\Admin\\Desktop\\Anthill\\Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D5875DE6-B354-4841-855F-8B6EBE211CB4}|ANTHILL.vcxproj|solutionrelative:Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5875DE6-B354-4841-855F-8B6EBE211CB4}|ANTHILL.vcxproj|C:\\Users\\Admin\\Desktop\\Anthill\\Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D5875DE6-B354-4841-855F-8B6EBE211CB4}|ANTHILL.vcxproj|solutionrelative:Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5875DE6-B354-4841-855F-8B6EBE211CB4}|ANTHILL.vcxproj|C:\\Users\\Admin\\Desktop\\Anthill\\Entity.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D5875DE6-B354-4841-855F-8B6EBE211CB4}|ANTHILL.vcxproj|solutionrelative:Entity.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5875DE6-B354-4841-855F-8B6EBE211CB4}|ANTHILL.vcxproj|C:\\Users\\Admin\\Desktop\\Anthill\\Entity.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D5875DE6-B354-4841-855F-8B6EBE211CB4}|ANTHILL.vcxproj|solutionrelative:Entity.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5875DE6-B354-4841-855F-8B6EBE211CB4}|ANTHILL.vcxproj|C:\\Users\\Admin\\Desktop\\Anthill\\Game Settings.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D5875DE6-B354-4841-855F-8B6EBE211CB4}|ANTHILL.vcxproj|solutionrelative:Game Settings.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5875DE6-B354-4841-855F-8B6EBE211CB4}|ANTHILL.vcxproj|C:\\Users\\Admin\\Desktop\\Anthill\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D5875DE6-B354-4841-855F-8B6EBE211CB4}|ANTHILL.vcxproj|solutionrelative:Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5875DE6-B354-4841-855F-8B6EBE211CB4}|ANTHILL.vcxproj|C:\\Users\\Admin\\Desktop\\Anthill\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D5875DE6-B354-4841-855F-8B6EBE211CB4}|ANTHILL.vcxproj|solutionrelative:Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5875DE6-B354-4841-855F-8B6EBE211CB4}|ANTHILL.vcxproj|C:\\Users\\Admin\\Desktop\\Anthill\\Anthill.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D5875DE6-B354-4841-855F-8B6EBE211CB4}|ANTHILL.vcxproj|solutionrelative:Anthill.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5875DE6-B354-4841-855F-8B6EBE211CB4}|ANTHILL.vcxproj|C:\\Users\\Admin\\Desktop\\Anthill\\Anthill.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D5875DE6-B354-4841-855F-8B6EBE211CB4}|ANTHILL.vcxproj|solutionrelative:Anthill.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5875DE6-B354-4841-855F-8B6EBE211CB4}|ANTHILL.vcxproj|C:\\Users\\Admin\\Desktop\\Anthill\\Cemetery.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D5875DE6-B354-4841-855F-8B6EBE211CB4}|ANTHILL.vcxproj|solutionrelative:Cemetery.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5875DE6-B354-4841-855F-8B6EBE211CB4}|ANTHILL.vcxproj|C:\\Users\\Admin\\Desktop\\Anthill\\Cemetery.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D5875DE6-B354-4841-855F-8B6EBE211CB4}|ANTHILL.vcxproj|solutionrelative:Cemetery.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5875DE6-B354-4841-855F-8B6EBE211CB4}|ANTHILL.vcxproj|C:\\Users\\Admin\\Desktop\\Anthill\\Informers.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D5875DE6-B354-4841-855F-8B6EBE211CB4}|ANTHILL.vcxproj|solutionrelative:Informers.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5875DE6-B354-4841-855F-8B6EBE211CB4}|ANTHILL.vcxproj|C:\\Users\\Admin\\Desktop\\Anthill\\Informers.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D5875DE6-B354-4841-855F-8B6EBE211CB4}|ANTHILL.vcxproj|solutionrelative:Informers.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5875DE6-B354-4841-855F-8B6EBE211CB4}|ANTHILL.vcxproj|C:\\Users\\Admin\\Desktop\\Anthill\\Position.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D5875DE6-B354-4841-855F-8B6EBE211CB4}|ANTHILL.vcxproj|solutionrelative:Position.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5875DE6-B354-4841-855F-8B6EBE211CB4}|ANTHILL.vcxproj|C:\\Users\\Admin\\Desktop\\Anthill\\Raid.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D5875DE6-B354-4841-855F-8B6EBE211CB4}|ANTHILL.vcxproj|solutionrelative:Raid.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5875DE6-B354-4841-855F-8B6EBE211CB4}|ANTHILL.vcxproj|C:\\Users\\Admin\\Desktop\\Anthill\\Role.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D5875DE6-B354-4841-855F-8B6EBE211CB4}|ANTHILL.vcxproj|solutionrelative:Role.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5875DE6-B354-4841-855F-8B6EBE211CB4}|ANTHILL.vcxproj|C:\\Users\\Admin\\Desktop\\Anthill\\Role.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D5875DE6-B354-4841-855F-8B6EBE211CB4}|ANTHILL.vcxproj|solutionrelative:Role.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5875DE6-B354-4841-855F-8B6EBE211CB4}|ANTHILL.vcxproj|C:\\Users\\Admin\\Desktop\\Anthill\\Tlya.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D5875DE6-B354-4841-855F-8B6EBE211CB4}|ANTHILL.vcxproj|solutionrelative:Tlya.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5875DE6-B354-4841-855F-8B6EBE211CB4}|ANTHILL.vcxproj|C:\\Users\\Admin\\Desktop\\Anthill\\Tlya.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D5875DE6-B354-4841-855F-8B6EBE211CB4}|ANTHILL.vcxproj|solutionrelative:Tlya.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Ant.cpp",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Anthill\\Ant.cpp",
+              "RelativeDocumentMoniker": "Ant.cpp",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Anthill\\Ant.cpp",
+              "RelativeToolTip": "Ant.cpp",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAowLkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-13T14:05:44.786Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Ant.h",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Anthill\\Ant.h",
+              "RelativeDocumentMoniker": "Ant.h",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Anthill\\Ant.h",
+              "RelativeToolTip": "Ant.h",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowCoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-13T14:05:46.072Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Game Settings.h",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Anthill\\Game Settings.h",
+              "RelativeDocumentMoniker": "Game Settings.h",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Anthill\\Game Settings.h",
+              "RelativeToolTip": "Game Settings.h",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowEgAAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-13T14:06:06.587Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Game.h",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Anthill\\Game.h",
+              "RelativeDocumentMoniker": "Game.h",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Anthill\\Game.h",
+              "RelativeToolTip": "Game.h",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAowCwAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-13T14:06:08.997Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Game.cpp",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Anthill\\Game.cpp",
+              "RelativeDocumentMoniker": "Game.cpp",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Anthill\\Game.cpp",
+              "RelativeToolTip": "Game.cpp",
+              "ViewState": "AgIAALwAAAAAAAAAAAAowNoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-13T14:06:07.724Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Enemy.h",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Anthill\\Enemy.h",
+              "RelativeDocumentMoniker": "Enemy.h",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Anthill\\Enemy.h",
+              "RelativeToolTip": "Enemy.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-13T14:06:05.794Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Enemy.cpp",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Anthill\\Enemy.cpp",
+              "RelativeDocumentMoniker": "Enemy.cpp",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Anthill\\Enemy.cpp",
+              "RelativeToolTip": "Enemy.cpp",
+              "ViewState": "AgIAABYAAAAAAAAAAAAowDQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-13T14:06:04.97Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MAIN.cpp",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Anthill\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Anthill\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-13T14:01:47.128Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Entity.h",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Anthill\\Entity.h",
+              "RelativeDocumentMoniker": "Entity.h",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Anthill\\Entity.h",
+              "RelativeToolTip": "Entity.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-15T18:21:05.678Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Entity.cpp",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Anthill\\Entity.cpp",
+              "RelativeDocumentMoniker": "Entity.cpp",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Anthill\\Entity.cpp",
+              "RelativeToolTip": "Entity.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-15T18:20:05.591Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Cemetery.cpp",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Anthill\\Cemetery.cpp",
+              "RelativeDocumentMoniker": "Cemetery.cpp",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Anthill\\Cemetery.cpp",
+              "RelativeToolTip": "Cemetery.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-15T21:46:24.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Resource.h",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Anthill\\Resource.h",
+              "RelativeDocumentMoniker": "Resource.h",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Anthill\\Resource.h",
+              "RelativeToolTip": "Resource.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-15T17:21:44.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Role.cpp",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Anthill\\Role.cpp",
+              "RelativeDocumentMoniker": "Role.cpp",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Anthill\\Role.cpp",
+              "RelativeToolTip": "Role.cpp",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAowEoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-13T14:06:18.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Raid.h",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Anthill\\Raid.h",
+              "RelativeDocumentMoniker": "Raid.h",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Anthill\\Raid.h",
+              "RelativeToolTip": "Raid.h",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-14T12:36:42.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Cemetery.h",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Anthill\\Cemetery.h",
+              "RelativeDocumentMoniker": "Cemetery.h",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Anthill\\Cemetery.h",
+              "RelativeToolTip": "Cemetery.h",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAowCIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-13T15:15:55.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Tlya.h",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Anthill\\Tlya.h",
+              "RelativeDocumentMoniker": "Tlya.h",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Anthill\\Tlya.h",
+              "RelativeToolTip": "Tlya.h",
+              "ViewState": "AgIAABEAAAAAAAAAAAAowC8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-13T14:06:21.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Resource.cpp",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Anthill\\Resource.cpp",
+              "RelativeDocumentMoniker": "Resource.cpp",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Anthill\\Resource.cpp",
+              "RelativeToolTip": "Resource.cpp",
+              "ViewState": "AgIAABMAAAAAAAAAAAAowDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-13T14:06:15.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Raid.cpp",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Anthill\\Raid.cpp",
+              "RelativeDocumentMoniker": "Raid.cpp",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Anthill\\Raid.cpp",
+              "RelativeToolTip": "Raid.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-13T14:06:14.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Position.h",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Anthill\\Position.h",
+              "RelativeDocumentMoniker": "Position.h",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Anthill\\Position.h",
+              "RelativeToolTip": "Position.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-13T14:06:13.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Informers.h",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Anthill\\Informers.h",
+              "RelativeDocumentMoniker": "Informers.h",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Anthill\\Informers.h",
+              "RelativeToolTip": "Informers.h",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-13T14:06:10.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Role.h",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Anthill\\Role.h",
+              "RelativeDocumentMoniker": "Role.h",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Anthill\\Role.h",
+              "RelativeToolTip": "Role.h",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowDwAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-13T14:06:19.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Informers.cpp",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Anthill\\Informers.cpp",
+              "RelativeDocumentMoniker": "Informers.cpp",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Anthill\\Informers.cpp",
+              "RelativeToolTip": "Informers.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-13T14:06:09.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Tlya.cpp",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Anthill\\Tlya.cpp",
+              "RelativeDocumentMoniker": "Tlya.cpp",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Anthill\\Tlya.cpp",
+              "RelativeToolTip": "Tlya.cpp",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowDwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-13T14:06:20.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Anthill.h",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Anthill\\Anthill.h",
+              "RelativeDocumentMoniker": "Anthill.h",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Anthill\\Anthill.h",
+              "RelativeToolTip": "Anthill.h",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAowCwAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-13T14:06:04.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Anthill.cpp",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Anthill\\Anthill.cpp",
+              "RelativeDocumentMoniker": "Anthill.cpp",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Anthill\\Anthill.cpp",
+              "RelativeToolTip": "Anthill.cpp",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAowGEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-13T14:06:03.179Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 84,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,4 +1,16 @@
 ﻿#include "Game.h"
+void Game::update(Font& font)
+{
+    Cemetery::set_current(&cemetery);
+    ticks++;
+    anthill.upd_anthill(ticks, resources);
+    if (anthill.colony.size() > 0) has_started_colony = 1;
+    statsLines.clear();
+    add_stats(font);
+    update_aphids();
+    if (get_ticks() % enemy_wave_period == 0) raid.spawn_raid();
+}
+
 void Game::add_stats(Font& font) {
     int line = 0;
     auto makeText = [&](const string& text, Color color) {
@@ -37,10 +49,12 @@ void Game::reset() {
     anthill = Anthill();
     raid.crowd.clear();
     resources.clear();
+    aphids.clear();
     statsLines.clear();
     ticks = 0;
     spawn_res();
 }
+
 
 void Game::spawn_res()
 {
@@ -85,6 +99,7 @@ void Game::spawn_aphids() {
     }
 }
 
+
 void Game::update_aphids() {
     for (auto& aphid : aphids) if (aphid.is_visible()) aphid.update();
     aphids.erase(
@@ -99,11 +114,11 @@ void Game::over(Font& font) {
 
     OVER.setFont(font);
     OVER.setString("GAME OVER");
-    OVER.setCharacterSize(100);
+    OVER.setCharacterSize(130);
     OVER.setFillColor(Color::Black);
 
     YOU.setFont(font);
-    YOU.setString("YOU ARE NEXT >>");
+    YOU.setString("YOU ARE NEXT");
     YOU.setCharacterSize(70);
     YOU.setFillColor(Color::Red);
 
@@ -123,4 +138,82 @@ string Game::to_K(int x)
     int y = (int)(x / 1000);
     if (y > 0) return to_string(y) + "." + to_string((x % 1000) / 100) + "K";
     return to_string(x);
+}
+
+void Game::update_ants() {
+    for (auto& ant : anthill.colony) {
+        //ant.look_around(resources);
+        ant.work(resources, raid.crowd);
+        ant.move();
+        if (ant.get_hp() > 0) {
+            ant.up();
+            if (ant.get_age() % stage_time == 0 && ant.get_age())
+                ant.upd_role();
+        }
+    }
+}
+
+void Game::update_enemies() {
+    for (auto& enemy : raid.crowd) {
+        if (enemy.get_hp() > 0) {
+            enemy.move();
+            enemy.up();
+        }
+    }
+    raid.crowd.erase(remove_if(raid.crowd.begin(), raid.crowd.end(),
+        [](const Enemy& enemy) {
+            return enemy.get_hp() <= 0 || !enemy.is_visible();
+        }), raid.crowd.end());
+}
+
+void Game::handle_collisions() {
+    for (size_t i = 0; i < anthill.colony.size(); i++) {
+        for (size_t j = i + 1; j < anthill.colony.size(); j++) {
+            Vector2f pos1 = anthill.colony[i].get_shape().getPosition();
+            Vector2f pos2 = anthill.colony[j].get_shape().getPosition();
+            float dx = pos1.x - pos2.x;
+            float dy = pos1.y - pos2.y;
+            float distance = sqrt(dx * dx + dy * dy);
+            float min_dist = ant_size * 2.0f;
+
+            if (distance < min_dist && distance > 0.001f) {
+                float overlap = (min_dist - distance) / 2.0f;
+                float offsetX = (dx / distance) * overlap;
+                float offsetY = (dy / distance) * overlap;
+
+                auto& shape1 = const_cast<CircleShape&>(anthill.colony[i].get_shape());
+                auto& shape2 = const_cast<CircleShape&>(anthill.colony[j].get_shape());
+                shape1.setPosition(pos1.x + offsetX, pos1.y + offsetY);
+                shape2.setPosition(pos2.x - offsetX, pos2.y - offsetY);
+            }
+        }
+    }
+
+    for (size_t i = 0; i < raid.crowd.size(); i++) {
+        for (size_t j = i + 1; j < raid.crowd.size(); j++) {
+            Vector2f pos1 = raid.crowd[i].get_shape().getPosition();
+            Vector2f pos2 = raid.crowd[j].get_shape().getPosition();
+            float dx = pos1.x - pos2.x;
+            float dy = pos1.y - pos2.y;
+            float distance = sqrt(dx * dx + dy * dy);
+
+            float radius_sum = raid.crowd[i].get_shape().getRadius() + raid.crowd[j].get_shape().getRadius();
+            if (distance < radius_sum && distance > 0.001f) {
+                float overlap = (radius_sum - distance) / 2.0f;
+                float offsetX = (dx / distance) * overlap;
+                float offsetY = (dy / distance) * overlap;
+
+                auto& shape1 = const_cast<CircleShape&>(raid.crowd[i].get_shape());
+                auto& shape2 = const_cast<CircleShape&>(raid.crowd[j].get_shape());
+                shape1.setPosition(pos1.x + offsetX, pos1.y + offsetY);
+                shape2.setPosition(pos2.x - offsetX, pos2.y - offsetY);
+            }
+        }
+    }
+}
+
+
+bool Game::check_game_over() {
+    return ((has_started_colony && anthill.colony.empty()) ||
+        anthill.get_shape().getRadius() <= 0.75 * start_radius);
 }

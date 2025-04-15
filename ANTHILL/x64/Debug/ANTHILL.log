@@ -1,0 +1,67 @@
+﻿  MAIN.cpp
+C:\Users\Admin\Desktop\Anthill\Game Settings.h(25,29): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "MAIN.cpp")
+  
+C:\Users\Admin\Desktop\Anthill\Game Settings.h(38,31): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "MAIN.cpp")
+  
+C:\Users\Admin\Desktop\Anthill\Game Settings.h(39,38): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "MAIN.cpp")
+  
+C:\Users\Admin\Desktop\Anthill\Game Settings.h(40,37): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "MAIN.cpp")
+  
+C:\Users\Admin\Desktop\Anthill\Game Settings.h(45,39): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "MAIN.cpp")
+  
+C:\Users\Admin\Desktop\Anthill\Game Settings.h(47,27): warning C4305: инициализация: усечение из "double" в "float"
+  (компиляция исходного файла "MAIN.cpp")
+  
+C:\Users\Admin\Desktop\Anthill\Game Settings.h(53,31): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "MAIN.cpp")
+  
+C:\Users\Admin\Desktop\Anthill\Position.h(5,38): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+  (компиляция исходного файла "MAIN.cpp")
+  
+C:\Users\Admin\Desktop\Anthill\Position.h(5,44): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
+  (компиляция исходного файла "MAIN.cpp")
+  
+C:\Users\Admin\Desktop\Anthill\Position.h(7,49): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+  (компиляция исходного файла "MAIN.cpp")
+  
+C:\Users\Admin\Desktop\Anthill\Position.h(8,76): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  (компиляция исходного файла "MAIN.cpp")
+  
+C:\Users\Admin\Desktop\Anthill\Position.h(8,64): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  (компиляция исходного файла "MAIN.cpp")
+  
+C:\Users\Admin\Desktop\Anthill\Resource.h(30,50): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+  (компиляция исходного файла "MAIN.cpp")
+  
+C:\Users\Admin\Desktop\Anthill\Entity.h(14,100): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  (компиляция исходного файла "MAIN.cpp")
+  
+C:\Users\Admin\Desktop\Anthill\Entity.h(14,97): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  (компиляция исходного файла "MAIN.cpp")
+  
+C:\Users\Admin\Desktop\Anthill\Anthill.h(44,36): warning C4244: return: преобразование "const float" в "int", возможна потеря данных
+  (компиляция исходного файла "MAIN.cpp")
+  
+C:\Users\Admin\Desktop\Anthill\Enemy.h(10,83): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  (компиляция исходного файла "MAIN.cpp")
+  
+C:\Users\Admin\Desktop\Anthill\Enemy.h(10,80): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  (компиляция исходного файла "MAIN.cpp")
+  
+C:\Users\Admin\Desktop\Anthill\Raid.h(12,45): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "MAIN.cpp")
+  
+C:\Users\Admin\Desktop\Anthill\Tlya.h(19,38): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  (компиляция исходного файла "MAIN.cpp")
+  
+C:\Users\Admin\Desktop\Anthill\Tlya.h(19,35): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  (компиляция исходного файла "MAIN.cpp")
+  
+C:\Users\Admin\Desktop\Anthill\MAIN.cpp(58,65): warning C4244: =: преобразование "sf::Int32" в "float", возможна потеря данных
+C:\Users\Admin\Desktop\Anthill\MAIN.cpp(63,61): warning C4244: =: преобразование "sf::Int32" в "float", возможна потеря данных
+  ANTHILL.vcxproj -> C:\Users\Admin\Desktop\Anthill\x64\Debug\ANTHILL.exe
